@@ -1,0 +1,49 @@
+<?php include 'header.php';?>
+
+
+<header class="container-fluid nav-down">
+    <div class="row">
+        <nav class="navbar navbar-inverse">
+            <div class="container no-padding">
+                <ul class="nav navbar-nav top_header">
+                    <li class="menu_icon back_icon"><a href="#"><img style="width:13px;" src="assets/img/icon/back.png" id="asdf" alt="menu icon" /></a></li>
+                    <li class="logo_name"><a class="text-left back">Focus Retreats</a></li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+    </div>
+    <!-- MOBILE-MENU-AREA END -->
+</header>
+<!-- END HEADER -->
+<div class="focus-cap-treat pl-10 pr-10 pt-5 mt-50">
+    <div class="focus-treats">
+        <div class="self focus-r-yellow">
+           <img src="assets/img/focus-retreats-1.png" alt="">
+            <p>Self Mastery</p>
+        </div>
+        <div class="leader-bussiness focus-r-blue">
+           <img src="assets/img/focus_retreats-2.png" alt="">
+            <p>Business Leadership</p>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<script>
+    $('.digit1 input').keyup(function() {
+        if ($(this).val().length == $(this).attr("maxlength")) {
+            $(this).next().focus();
+        }
+    });
+
+</script>
+<?php include 'footer.php';?>
